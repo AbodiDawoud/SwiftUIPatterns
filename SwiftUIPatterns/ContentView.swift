@@ -66,6 +66,62 @@ struct ContentView: View {
                     color: .indigo,
                     destination: AnyView(CheckerboardPatternView() )
                 )
+                
+                PatternPreviewView(
+                    pattern: "Chevron",
+                    systemIcon: "chevron.up.chevron.down",
+                    color: .cyan,
+                    destination: AnyView(ChevronPatternView())
+                )
+                
+                PatternPreviewView(
+                    pattern: "Argyle",
+                    systemIcon: "diamond.bottomhalf.filled",
+                    color: .red,
+                    destination: AnyView(ArgylePatternView())
+                )
+                
+                PatternPreviewView(
+                    pattern: "Concentric Circles",
+                    systemIcon: "smallcircle.circle",
+                    color: .green,
+                    destination: AnyView(ConcentricCirclesPatternView())
+                )
+
+                PatternPreviewView(
+                    pattern: "Plaid",
+                    systemIcon: "squareshape.split.3x3",
+                    color: .strawberry,
+                    destination: AnyView(PlaidPatternView())
+                )
+
+                PatternPreviewView(
+                    pattern: "Isometric Cubes",
+                    systemIcon: "cube.fill",
+                    color: .aqua,
+                    destination: AnyView(IsometricCubesPatternView())
+                )
+
+                PatternPreviewView(
+                    pattern: "Interlocking Crosses",
+                    systemIcon: "plus",
+                    color: .mint,
+                    destination: AnyView(CrossPatternView())
+                )
+            
+                PatternPreviewView(
+                    pattern: "Brick Pattern",
+                    systemIcon: "appwindow.swipe.rectangle",
+                    color: .grape,
+                    destination: AnyView(BrickPatternView())
+                )
+                
+                PatternPreviewView(
+                    pattern: "Truchet Maze",
+                    systemIcon: "lightspectrum.horizontal",
+                    color: .lime,
+                    destination: AnyView(TruchetMazePatternView())
+                )
             }
             .listSectionSpacing(20)
         }

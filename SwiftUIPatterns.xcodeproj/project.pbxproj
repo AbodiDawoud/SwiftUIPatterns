@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BDBBEE952F89505500F3A443 /* ConcentricCirclesPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBBEE942F89505500F3A443 /* ConcentricCirclesPattern.swift */; };
+		BDBBEE962F89505500F3A443 /* ArgylePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBBEE922F89505500F3A443 /* ArgylePattern.swift */; };
+		BDBBEE972F89505500F3A443 /* ChevronPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBBEE932F89505500F3A443 /* ChevronPattern.swift */; };
+		BDBBEE9B2F89544C00F3A443 /* IsometricCubesPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBBEE992F89544C00F3A443 /* IsometricCubesPattern.swift */; };
+		BDBBEE9C2F89544C00F3A443 /* PlaidPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBBEE9A2F89544C00F3A443 /* PlaidPattern.swift */; };
+		BDBBEE9D2F89544C00F3A443 /* CrossPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBBEE982F89544C00F3A443 /* CrossPattern.swift */; };
+		BDBBEEA12F895E1600F3A443 /* TruchetMazePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBBEEA02F895E1600F3A443 /* TruchetMazePattern.swift */; };
+		BDBBEEA32F895E1600F3A443 /* BrickPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBBEE9E2F895E1600F3A443 /* BrickPattern.swift */; };
+		BDBBEEA52F8966B700F3A443 /* ShakeModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBBEEA42F8966B700F3A443 /* ShakeModifier.swift */; };
 		C00620622D937B8600BF3E6C /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00620612D937B8600BF3E6C /* App.swift */; };
 		C00620642D937B8600BF3E6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00620632D937B8600BF3E6C /* ContentView.swift */; };
 		C00620662D937B8700BF3E6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C00620652D937B8700BF3E6C /* Assets.xcassets */; };
@@ -19,6 +28,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BDBBEE922F89505500F3A443 /* ArgylePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgylePattern.swift; sourceTree = "<group>"; };
+		BDBBEE932F89505500F3A443 /* ChevronPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChevronPattern.swift; sourceTree = "<group>"; };
+		BDBBEE942F89505500F3A443 /* ConcentricCirclesPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentricCirclesPattern.swift; sourceTree = "<group>"; };
+		BDBBEE982F89544C00F3A443 /* CrossPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossPattern.swift; sourceTree = "<group>"; };
+		BDBBEE992F89544C00F3A443 /* IsometricCubesPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsometricCubesPattern.swift; sourceTree = "<group>"; };
+		BDBBEE9A2F89544C00F3A443 /* PlaidPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaidPattern.swift; sourceTree = "<group>"; };
+		BDBBEE9E2F895E1600F3A443 /* BrickPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrickPattern.swift; sourceTree = "<group>"; };
+		BDBBEEA02F895E1600F3A443 /* TruchetMazePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruchetMazePattern.swift; sourceTree = "<group>"; };
+		BDBBEEA42F8966B700F3A443 /* ShakeModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeModifier.swift; sourceTree = "<group>"; };
 		C006205E2D937B8600BF3E6C /* SwiftUIPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C00620612D937B8600BF3E6C /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		C00620632D937B8600BF3E6C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -65,6 +83,7 @@
 				C00620702D937C1100BF3E6C /* Patterns */,
 				C00620632D937B8600BF3E6C /* ContentView.swift */,
 				C00620612D937B8600BF3E6C /* App.swift */,
+				BDBBEEA42F8966B700F3A443 /* ShakeModifier.swift */,
 			);
 			path = SwiftUIPatterns;
 			sourceTree = "<group>";
@@ -78,6 +97,14 @@
 				C00620772D937CBE00BF3E6C /* Checkerboard.swift */,
 				C00620782D937CBE00BF3E6C /* DiagonalStripe.swift */,
 				C00620792D937CBE00BF3E6C /* DotPattern.swift */,
+				BDBBEE922F89505500F3A443 /* ArgylePattern.swift */,
+				BDBBEE932F89505500F3A443 /* ChevronPattern.swift */,
+				BDBBEE942F89505500F3A443 /* ConcentricCirclesPattern.swift */,
+				BDBBEE982F89544C00F3A443 /* CrossPattern.swift */,
+				BDBBEE992F89544C00F3A443 /* IsometricCubesPattern.swift */,
+				BDBBEE9A2F89544C00F3A443 /* PlaidPattern.swift */,
+				BDBBEE9E2F895E1600F3A443 /* BrickPattern.swift */,
+				BDBBEEA02F895E1600F3A443 /* TruchetMazePattern.swift */,
 			);
 			path = Patterns;
 			sourceTree = "<group>";
@@ -156,8 +183,17 @@
 			files = (
 				C00620642D937B8600BF3E6C /* ContentView.swift in Sources */,
 				C00620742D937C2100BF3E6C /* GridPattern.swift in Sources */,
+				BDBBEEA52F8966B700F3A443 /* ShakeModifier.swift in Sources */,
 				C00620752D937C2100BF3E6C /* WavePattern.swift in Sources */,
 				C00620762D937C2100BF3E6C /* HexagonGrid.swift in Sources */,
+				BDBBEE952F89505500F3A443 /* ConcentricCirclesPattern.swift in Sources */,
+				BDBBEEA12F895E1600F3A443 /* TruchetMazePattern.swift in Sources */,
+				BDBBEEA32F895E1600F3A443 /* BrickPattern.swift in Sources */,
+				BDBBEE962F89505500F3A443 /* ArgylePattern.swift in Sources */,
+				BDBBEE972F89505500F3A443 /* ChevronPattern.swift in Sources */,
+				BDBBEE9B2F89544C00F3A443 /* IsometricCubesPattern.swift in Sources */,
+				BDBBEE9C2F89544C00F3A443 /* PlaidPattern.swift in Sources */,
+				BDBBEE9D2F89544C00F3A443 /* CrossPattern.swift in Sources */,
 				C006207A2D937CBE00BF3E6C /* DiagonalStripe.swift in Sources */,
 				C006207B2D937CBE00BF3E6C /* Checkerboard.swift in Sources */,
 				C006207C2D937CBE00BF3E6C /* DotPattern.swift in Sources */,
@@ -295,8 +331,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 48S57XVT54;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = UIPatterns;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -328,8 +366,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 48S57XVT54;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = UIPatterns;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
